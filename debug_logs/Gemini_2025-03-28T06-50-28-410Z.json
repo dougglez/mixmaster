@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "I can't create a photorealistic image, as I am a text-based AI.  I can, however, give you a detailed description of how such an image might look, incorporating professional cocktail photography elements:\n\n**The Scene:**\n\n* **Glassware:** A classic rocks glass, preferably crystal or heavy, high-quality glass, showcasing the rich color of the cocktail.  The glass is about 2/3 full.\n* **Lighting:** Soft, diffused lighting comes from slightly behind and above the glass, highlighting the creamy texture and glistening nutmeg. A subtle backlight might be used to add depth and separate the drink from the background. Avoid harsh shadows.\n* **Background:** A dark, slightly textured surface like polished dark wood or slate.  This creates contrast and allows the cocktail to stand out. Perhaps a few scattered coffee beans or whole hazelnuts are subtly placed near the glass, but not distractingly so.\n* **Garnish:**  Freshly grated nutmeg sits atop the drink, not piled high, but lightly dusted across the surface. A few larger, more visually appealing nutmeg shavings might be strategically placed to catch the light.  A small sprig of mint, tucked discreetly behind the glass, could add a touch of freshness, but isn't strictly necessary.\n\n**The Cocktail:**\n\n* **Color and Texture:** The Nutty Irishman is a rich, warm brown color, somewhere between the amber of the whiskey and the deep brown of the coffee liqueur. The cream creates a smooth, velvety texture, visible in the way the light reflects off the surface.  There might be a slight swirl visible where the cream hasn't completely blended, giving a sense of movement.\n* **Ice:**  A single large, clear ice cube or sphere melts slowly, keeping the drink cold without excessive dilution.  The cube's edges are slightly rounded, and tiny air bubbles are trapped within, catching the light. Condensation gently beads on the outside of the glass, adding to the sense of coldness and refreshment.\n\n**Composition:**\n\n* **Focus:** The focus is sharp on the front of the glass and the garnish, with a slight, artful blur towards the back of the glass and background.\n* **Angle:** The camera angle is slightly above the glass, looking down at a slight angle, showcasing both the surface of the drink and the depth of color within.\n\n**Overall Impression:**\n\nThe image conveys a sense of warmth, indulgence, and sophistication. The rich colors, textures, and lighting invite the viewer to imagine the aroma and taste of the cocktail.  It's a photograph that makes you want to reach out and take a sip.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.4217791076100201
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 76,
+    "candidatesTokenCount": 545,
+    "totalTokenCount": 621,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 76
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 545
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}

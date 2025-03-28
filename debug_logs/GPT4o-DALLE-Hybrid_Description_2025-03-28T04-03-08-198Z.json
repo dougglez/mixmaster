@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFvDubqqqMOfJ1TPNoZPZGDebfLE7",
+  "object": "chat.completion",
+  "created": 1743134586,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Vanilla Bourbon Breeze\" is served in a sleek, short tumbler with a slight amber hue from the bourbon. The vanilla syrup adds a golden glow, while the ginger ale introduces a fizzy effervescence. A lime wedge perches on the rim, adding a pop of green. Soft, diffused lighting creates gentle highlights on the glass, crafting delicate reflections. The background is a blurred, warm wood texture, enhancing the cocktail's rich tones. The overall composition is cozy and inviting, emphasizing the drink's sophistication. Subtle bubbles rise to the surface, hinting at its refreshing nature.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 123,
+    "total_tokens": 247,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

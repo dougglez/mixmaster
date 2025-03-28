@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFv4doTKyGZvHAiDjMNtfP8hWcSVv",
+  "object": "chat.completion",
+  "created": 1743134011,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The cocktail is served in an elegant, clear rocks glass, showcasing a refreshing, light green hue. Cucumber slices are artfully arranged within the drink, with three fresh basil leaves floating on the surface. The rim of the glass features a thin slice of lime as garnish. Natural sunlight streams from the left, creating soft reflections and highlights in the glass, enhancing the drink's vibrant color. The background is a blurred natural wooden texture, giving a fresh and organic feel to the image. The overall composition emphasizes freshness and elegance through minimalistic aesthetics.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 123,
+    "completion_tokens": 110,
+    "total_tokens": 233,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

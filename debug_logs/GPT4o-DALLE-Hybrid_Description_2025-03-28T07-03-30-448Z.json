@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFy2RSlFdxH2TUSJLyTGPnil2MAxm",
+  "object": "chat.completion",
+  "created": 1743145407,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Vanilla Cinnamon Whiskey Delight\" is elegantly served in a clear glass mug, showcasing layers of warm ivory milk and amber-hued whiskey. A cinnamon stick perches inside, leaning gracefully over the edge. Delicate swirls of vanilla syrup create a marbled effect. Freshly grated nutmeg dusts the creamy surface, adding a touch of rich, earthy brown. Soft, ambient lighting casts a cozy, inviting glow, with subtle reflections playing on the glass. The background is a blurred, rustic wooden texture, enhancing the cocktail's warmth and comfort, and the overall composition invites a tranquil, fireside experience.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 123,
+    "completion_tokens": 125,
+    "total_tokens": 248,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFtNaiVPaPd12ZgmtLs97MFSvFISZ",
+  "object": "chat.completion",
+  "created": 1743127498,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "To create a photorealistic image of the \"Smoky Spiced Velvet\" cocktail, imagine the following setup:\n\nThe cocktail is served in a sleek, double old-fashioned glass to highlight its creamy yet vibrant contents. The glass is sitting on a rustic wooden table, creating a warm and inviting atmosphere.\n\nThe drink itself boasts a rich, creamy color from the coconut milk, with subtle golden hues from the mezcal and honey syrup. Floating on the surface is a gentle dusting of smoked paprika, adding an earthy contrast against the creamy backdrop.\n\nGarnishing the cocktail are three fresh basil leaves, delicately resting on the rim of the glass to infuse a fresh, aromatic essence. They are a deep, verdant green, providing a striking visual contrast against the cocktail's creamy tones.\n\nA lime wheel, thinly sliced, is perched elegantly on the rim, hinting at the citrusy note within. Nearby, a small swirl of honey can be seen trickling down the inside of the glass, catching the light beautifully.\n\nIn the background, there is a hint of soft smoke, adding atmosphere and tying back to the mezcal's smoky character. The lighting is soft yet deliberate, casting gentle shadows and creating highlights that reflect off the glass, accentuating the drink's luscious texture.\n\nThe overall composition is balanced and alluring, inviting viewers to reach out and take a sip of this exquisite creation. The scene feels inviting and indulgent, perfectly capturing the essence of the \"Smoky Spiced Velvet\" cocktail.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 307,
+    "total_tokens": 437,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

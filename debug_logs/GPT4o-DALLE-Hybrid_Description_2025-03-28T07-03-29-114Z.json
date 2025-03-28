@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFy2QfMQvrZ8qRDB6g6Wk6xVBvgKa",
+  "object": "chat.completion",
+  "created": 1743145406,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Maple Whiskey Dream\" is exquisitely presented in a clear glass mug that accentuates its rich amber hue. The cocktail is topped with a fresh rosemary sprig garnish, its vibrant green contrasting beautifully against the warm liquid. Soft, warm lighting creates gentle reflections on the glass and illuminates the golden tones of the drink. The background features a rustic wooden surface, complementing the cocktail's earthy theme. The overall composition is cozy and inviting, embodying a sense of warmth and craft, perfect for a chilly evening.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 108,
+    "total_tokens": 234,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

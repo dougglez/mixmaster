@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFugUpMjklBCdqJgC3e3PwQY7hjnj",
+  "object": "chat.completion",
+  "created": 1743132514,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Tropical Twister\" is served in a sleek, clear stemmed hurricane glass, showcasing its rich, layered colors: deep amber from the dark rum and Campari base, fading into a lighter golden hue where the pineapple juice mingles. A pineapple slice perches on the rim, contrasting with a shiny maraschino cherry. Soft, warm lighting creates subtle reflections on the glass, casting inviting glimmers. The background is a blurred sandy beach scene, enhancing the tropical vibe. Overall, the composition captures the cocktail’s vibrant essence, making it the focal point amidst a serene, sun-kissed backdrop.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 146,
+    "completion_tokens": 124,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_de57b65c90"
+}

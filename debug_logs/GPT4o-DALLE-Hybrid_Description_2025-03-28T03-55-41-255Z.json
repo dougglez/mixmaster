@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFv6hAkOh4uA0DUJR3XWAeS19rHU8",
+  "object": "chat.completion",
+  "created": 1743134139,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Spicy Ginger Snap\" is served in an elegant, short rocks glass with a thick base, enhancing stability. The cocktail displays a warm amber hue, highlighted by golden undertones from the bourbon. A thin slice of fresh ginger floats atop the drink. Garnished with a curled lemon peel on the rim, the glass catches soft, ambient lighting, creating gentle reflections around its base. Subtle shadows fall against a textured, dark wooden background, enhancing the sophistication of the scene. The overall composition exudes warmth and invites a cozy, intimate vibe perfect for a refined setting.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 117,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

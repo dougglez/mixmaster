@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFtNq3mh1C4hHN5wpqoC6Cf1gNLcx",
+  "object": "chat.completion",
+  "created": 1743127514,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The image captures a stunning \"Smoky Spiced Velvet\" cocktail showcased in a sleek, wide-mouthed crystal coupe glass. The cocktail itself presents a creamy, slightly frothy surface, indicative of the blend of creamy coconut milk with the other ingredients. The silky, off-white color is subtly interspersed with dashes of warm amber hues from the mezcal and honey syrup, creating a visually appealing contrast.\n\nNear the rim of the glass, a small sprig of fresh basil elegantly rests, its vivid green providing a fresh pop of color against the creamy base. The glass is delicately lined with a fine dusting of smoked paprika that extends slightly into the drink, adding a hint of rustic red around the edges.\n\nThe surrounding lighting is bright yet soft, highlighting the rich textures and tones of the cocktail. In the background, a blurred wooden tabletop adds an earthy, natural element to the composition. The whole scene projects an atmosphere of warmth and sophistication, perfectly capturing the essence of this unique, spiced cocktail.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 206,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_898ac29719"
+}

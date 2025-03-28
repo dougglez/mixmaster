@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFv4dW3hj7WeV1gE9EcNxBRSTXCZu",
+  "object": "chat.completion",
+  "created": 1743134011,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Vodka Ginger Fizz is elegantly presented in a highball glass. Inside, the cocktail is a pale, effervescent gold from the mix of ginger syrup and club soda, with hints of lemon juice adding a subtle cloudiness. A lemon wheel floats gracefully atop, its vibrant yellow contrasting crisply against the liquid. Soft, diffused lighting from the side enhances reflections and highlights, casting a gentle glow and subtle sparkle on the glass surface. The background is a muted, deep slate gray, ensuring the cocktail’s golden hues stand out vividly. The overall composition feels fresh, inviting, and balanced.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 120,
+    "completion_tokens": 122,
+    "total_tokens": 242,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

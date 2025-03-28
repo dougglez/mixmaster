@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFy2GIY9R5XV9dE6bgyNGx2ppO1lY",
+  "object": "chat.completion",
+  "created": 1743145396,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Ginger Whiskey Toddy is showcased in a clear, heat-resistant glass mug that highlights its warm amber hue. The steaming liquid swirls gently, creating a comforting embrace of autumnal tones. Floating atop is a thin lime wheel, kissed by a slice of fresh ginger, both releasing fragrant citrus and spicy notes. Soft, diffused lighting casts a cozy glow, creating subtle reflections on the wooden surface underneath. The background is a blurred tapestry of deep greens, reminiscent of a rustic forest setting, enhancing the cocktail's inviting warmth and earthy aroma. The composition exudes tranquility and sophisticated rustic charm.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 119,
+    "total_tokens": 251,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

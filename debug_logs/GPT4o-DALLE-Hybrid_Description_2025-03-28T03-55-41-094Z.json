@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFv6h4I9lOnxJvGbaTL6ftokVKsKN",
+  "object": "chat.completion",
+  "created": 1743134139,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The cocktail is served in a classic martini glass, showcasing a rich, velvety brown hue. A fine layer of crema crowns the drink, adorned with three strategically placed coffee beans. The chocolate syrup offers a subtle sheen under warm, moody lighting, creating soft glows and shadows. The glossy surface reflects light with elegance. The background features a dark wooden texture, emphasizing the cocktail's luxurious appeal. Overall, the composition is balanced, with focus maintained on the cocktail's alluring texture and garnishes, inviting the viewer into an intimate, ambient setting.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 121,
+    "completion_tokens": 113,
+    "total_tokens": 234,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

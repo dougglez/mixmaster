@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFtjT2dYRAnouvmrfIUgtavmsfPE5",
+  "object": "chat.completion",
+  "created": 1743128855,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "In a sleek highball glass, the Tropical Creamy Herb Elixir layers a creamy hue with golden undertones from dark rum and pineapple juice. The drink’s surface is topped with a basil leaf garnish beside a thin lime wheel. Ambient light casts a soft glow, creating gentle reflections on the glass, accentuated by a single glistening ice cube within. Set against a blurred tropical jungle backdrop, with hints of green and warm sunlight peeking through, this composition radiates freshness and exotic allure, inviting the viewer into a lush, vibrant setting.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 111,
+    "total_tokens": 260,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "I can't create a real photo, as I'm a text-based AI. However, I can give you a detailed description of how such a photorealistic image of a \"Vanilla Cinnamon Whiskey Delight\" cocktail would look, which you could then use as a guide for creating the photo yourself or commissioning one from an artist:\n\n**Setting and Lighting:**\n\n* **Background:** A dark, slightly rustic wooden surface, perhaps with a few scattered cinnamon sticks and whole nutmeg seeds, provides a warm and inviting backdrop that contrasts beautifully with the creamy drink.\n* **Lighting:** Soft, warm light from the side and slightly behind the cocktail glass creates a gentle glow and highlights the steam rising from the hot milk, adding a sense of coziness. A subtle reflection of the light on the glass adds depth.\n\n**Glassware and Drink:**\n\n* **Glass:** A clear Irish coffee glass, or a heatproof mug with a handle, showcases the layered beauty of the cocktail. The glass should be slightly misted from the heat of the milk.\n* **Liquid:** The base of the glass is filled with the amber hue of the Tennessee whiskey.  Above it, the vanilla syrup blends gently, creating a subtle gradient.  The hot milk forms the top layer, a creamy off-white cloud contrasting against the darker layers below. Tiny bubbles cling to the cinnamon stick where it emerges from the milk, indicating the heat.\n* **Layering:** The distinct layers of whiskey, syrup, and milk are clearly visible, yet slightly blurred where they meet, showcasing the blending of flavors.\n\n**Garnishes and Styling:**\n\n* **Cinnamon Stick:** A long cinnamon stick rests inside the glass, extending slightly above the surface of the milk. A small amount of freshly grated nutmeg dusts the top of the foamed milk around the base of the cinnamon stick.\n* **Nutmeg:** The freshly grated nutmeg is finely dispersed, creating a delicate pattern on the creamy surface. Some of the nutmeg has drifted onto the cinnamon stick, adding a touch of visual interest.\n* **Steam:** Wisps of steam rise gracefully from the surface of the hot milk, conveying the warmth and inviting aroma of the cocktail.\n* **Optional:** A small vanilla bean, split lengthwise, could be placed beside the glass on the wooden surface for an added touch of elegance and a hint at the key ingredient.\n\n**Overall Impression:**\n\nThe photo should evoke a feeling of warmth, comfort, and indulgence. The rich colors, the soft lighting, and the steam create a sense of inviting aroma. The focus is on the cocktail, highlighting its layers and textures, while the background and garnishes complement the overall composition.  It should look like a drink you want to reach out and savor on a cool evening.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.3631245373837097
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 71,
+    "candidatesTokenCount": 566,
+    "totalTokenCount": 637,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 71
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 566
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}

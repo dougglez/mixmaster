@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFxptp9fY13SrKotT3vZNzCj6FMJm",
+  "object": "chat.completion",
+  "created": 1743144629,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Smoky Maple Old Fashioned\" is served in a classic, heavy-bottomed rocks glass. The cocktail's rich amber hue catches warm, diffused lighting, creating subtle reflections on the table. A large, clear ice cube sits centrally, suffusing the drink with a tranquil clarity. The orange peel garnish artfully curls atop the glass, releasing citrusy aromas. Soft shadows accentuate the glass’s elegant, faceted surface. The background, a textured wooden bar top, echoes the rustic charm of maple syrup. The composition exudes a cozy sophistication, inviting the viewer to savor this classic yet innovative libation.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 127,
+    "total_tokens": 260,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

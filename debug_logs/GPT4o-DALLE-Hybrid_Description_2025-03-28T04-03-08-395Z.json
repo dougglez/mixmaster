@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFvDuqDsv0Vg2o8jPQEnjRMPjuz37",
+  "object": "chat.completion",
+  "created": 1743134586,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Cranberry Bourbon Blush\" is served in a classic rocks glass, showcasing its vibrant, deep ruby hue. The cocktail shimmers under soft, warm lighting, highlighting the amber undertones of the bourbon. A trio of fresh cranberries floats on the surface, adding visual contrast. The glass is rimmed with a fine, sugar-sparkled edge, catching the light. Resting on a rustic wooden table, the cocktail's surroundings feature a blurred background of autumn leaves and soft bokeh lights, enhancing the warm, inviting ambiance. The overall composition exudes a cozy, refined elegance, perfect for the cooler seasons.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 128,
+    "total_tokens": 256,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

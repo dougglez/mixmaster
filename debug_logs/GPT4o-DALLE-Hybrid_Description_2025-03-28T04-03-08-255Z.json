@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFvDua4OTmBKnX9tTTtb1vLC29qTG",
+  "object": "chat.completion",
+  "created": 1743134586,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Southern Peach Smash is served in a classic rocks glass with a sturdy, clear base. The cocktail exhibits a vibrant golden-amber hue, accentuated by the warm, diffused sunlight streaming from a window, casting soft reflections. Fresh mint leaves are nestled within, adding a pop of deep green, while a juicy peach slice rests on the rim, offering a contrast. The background is a blurred rustic wood surface, enhancing the Southern charm. The overall composition captures the essence of fresh, summery elegance with a focus on texture and reflection, inviting you into its refreshing allure.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 116,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

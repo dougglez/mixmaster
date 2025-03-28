@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFxpsIuINmUkaOBt70lYGZgwrIm4B",
+  "object": "chat.completion",
+  "created": 1743144628,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Nutty Irishman cocktail is elegantly presented in a crystal-clear rocks glass. The creamy tan liquid swirls with hints of amber and coffee tones, topped with a delicate layer of frothy cream. A sprinkle of grated nutmeg gently rests atop. Captured under soft, warm lighting, the glass sparkles with golden reflections. The background features a blurred, rustic wooden surface, adding a cozy feel. The overall composition is intimate, with the cocktail centered, inviting the viewer into its warm, nutty embrace.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 104,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

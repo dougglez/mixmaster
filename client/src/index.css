@@ -1,0 +1,552 @@
+/* Original Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lobster&family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Pacifico&family=Raleway:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;700&display=swap');
+
+/* New Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Lato:wght@300;400;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&f[]=clash-grotesk@300,400,500,700&f[]=lexend@300,400,500,700&display=swap');
+
+/* Proxima Nova and Avenir aren't available via Google Fonts, using system fonts as fallback */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utility class to hide scrollbars while allowing scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}
+
+@keyframes progress {
+  0% { width: 0%; }
+  50% { width: 70%; }
+  80% { width: 85%; }
+  100% { width: 95%; }
+}
+
+@keyframes pulse-opacity {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@layer base {
+  :root {
+    --color-primary: rgb(139, 92, 246);
+    --color-secondary: rgb(236, 72, 153);
+    --color-primary-rgb: 139, 92, 246;
+    --color-secondary-rgb: 236, 72, 153;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased text-neutral-800 dark:text-neutral-100;
+    background-image: url('./assets/subtle-pattern.svg');
+    background-color: #f8f9fa;
+  }
+  
+  .dark body {
+    background-color: #121212;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight font-bold;
+  }
+  
+  /* Enhanced typography for main headings */
+  h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    @apply leading-tight;
+  }
+  
+  /* Title font classes */
+  .font-lobster .brand-heading,
+  .font-lobster .gradient-heading,
+  .font-lobster.brand-heading,
+  .font-lobster.gradient-heading {
+    font-family: 'Lobster', cursive;
+  }
+  
+  .font-poppins .brand-heading,
+  .font-poppins .gradient-heading,
+  .font-poppins.brand-heading,
+  .font-poppins.gradient-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  
+  .font-playfair .brand-heading,
+  .font-playfair .gradient-heading,
+  .font-playfair.brand-heading,
+  .font-playfair.gradient-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+  
+  .font-montserrat .brand-heading,
+  .font-montserrat .gradient-heading,
+  .font-montserrat.brand-heading,
+  .font-montserrat.gradient-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  
+  .font-pacifico .brand-heading,
+  .font-pacifico .gradient-heading,
+  .font-pacifico.brand-heading,
+  .font-pacifico.gradient-heading {
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .font-raleway .brand-heading,
+  .font-raleway .gradient-heading,
+  .font-raleway.brand-heading,
+  .font-raleway.gradient-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+  }
+  
+  .font-oswald .brand-heading,
+  .font-oswald .gradient-heading,
+  .font-oswald.brand-heading,
+  .font-oswald.gradient-heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+  
+  .font-dancing .brand-heading,
+  .font-dancing .gradient-heading,
+  .font-dancing.brand-heading,
+  .font-dancing.gradient-heading {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+  }
+  
+  /* New fonts */
+  .font-clash .brand-heading,
+  .font-clash .gradient-heading,
+  .font-clash.brand-heading,
+  .font-clash.gradient-heading {
+    font-family: 'Clash Grotesk', sans-serif;
+    font-weight: 600;
+  }
+  
+  .font-lexend .brand-heading,
+  .font-lexend .gradient-heading,
+  .font-lexend.brand-heading,
+  .font-lexend.gradient-heading {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+  }
+  
+  .font-nunito .brand-heading,
+  .font-nunito .gradient-heading,
+  .font-nunito.brand-heading,
+  .font-nunito.gradient-heading {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+  }
+  
+  .font-proxima .brand-heading,
+  .font-proxima .gradient-heading,
+  .font-proxima.brand-heading,
+  .font-proxima.gradient-heading {
+    font-family: 'Proxima Nova', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+  }
+  
+  .font-satoshi .brand-heading,
+  .font-satoshi .gradient-heading,
+  .font-satoshi.brand-heading,
+  .font-satoshi.gradient-heading {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+  }
+  
+  .font-lato .brand-heading,
+  .font-lato .gradient-heading,
+  .font-lato.brand-heading,
+  .font-lato.gradient-heading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+  
+  .font-avenir .brand-heading,
+  .font-avenir .gradient-heading,
+  .font-avenir.brand-heading,
+  .font-avenir.gradient-heading {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Font weight classes */
+  .font-light {
+    font-weight: 300;
+  }
+  
+  .font-regular {
+    font-weight: 400;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  /* Accessible theme overrides */
+  .accessible-theme .gradient-heading {
+    @apply text-primary;
+    background-image: none !important;
+  }
+}
+
+@layer components {
+  .gradient-heading {
+    background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    @apply bg-clip-text text-transparent;
+  }
+  
+  .cocktail-card {
+    @apply rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl border bg-white
+    dark:bg-neutral-800 dark:hover:shadow-none dark:text-neutral-100;
+    border-color: rgba(var(--color-primary-rgb), 0.1);
+  }
+  
+  .cocktail-card:hover {
+    border-color: rgba(var(--color-primary-rgb), 0.3);
+    box-shadow: 0 10px 25px -5px rgba(var(--color-primary-rgb), 0.1),
+                0 8px 10px -6px rgba(var(--color-primary-rgb), 0.1);
+  }
+  
+  .dark .cocktail-card {
+    border-color: rgba(var(--color-primary-rgb), 0.2);
+  }
+  
+  .dark .cocktail-card:hover {
+    border-color: rgba(var(--color-primary-rgb), 0.4);
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-sm border transition-all duration-300;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(var(--color-primary-rgb), 0.1);
+  }
+  
+  .glass-effect:hover {
+    border-color: rgba(var(--color-primary-rgb), 0.2);
+    box-shadow: 0 4px 6px -1px rgba(var(--color-primary-rgb), 0.05),
+                0 2px 4px -2px rgba(var(--color-primary-rgb), 0.05);
+  }
+  
+  .dark .glass-effect {
+    background-color: rgba(23, 23, 23, 0.8);
+    border-color: rgba(var(--color-primary-rgb), 0.15);
+  }
+  
+  .dark .glass-effect:hover {
+    border-color: rgba(var(--color-primary-rgb), 0.3);
+  }
+  
+  .button-primary {
+    background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    @apply text-white font-bold py-3 px-6 rounded-xl 
+    hover:shadow-lg transition-all duration-300
+    active:scale-[0.98] focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .button-outline {
+    @apply bg-white border-2 text-primary font-semibold rounded-xl border-primary/20
+    hover:border-primary transition-all duration-300
+    active:scale-[0.98] focus:ring-2 focus:ring-primary/30
+    dark:bg-neutral-800 dark:border-primary/30;
+    background-color: transparent;
+  }
+  
+  .button-outline:hover {
+    background-color: rgba(var(--color-primary-rgb), 0.05);
+  }
+  
+  .dark .button-outline:hover {
+    background-color: rgba(var(--color-primary-rgb), 0.1);
+  }
+  
+  /* Dark mode enhancements for cards and labels */
+  .dark label {
+    @apply text-neutral-300;
+  }
+  
+  .dark .text-neutral-500 {
+    @apply text-neutral-400;
+  }
+  
+  /* Form elements */
+  .form-input, .form-select, .form-textarea {
+    @apply rounded-lg border border-neutral-300 focus:ring-2 focus:ring-2 focus:ring-primary/50 focus:border-primary
+    transition-all duration-200 hover:border-primary;
+    background-color: rgba(var(--color-primary-rgb), 0.05);
+  }
+  
+  /* Group categories for drink characteristics */
+  .characteristics-group {
+    @apply mb-4;
+  }
+  
+  .group-label {
+    @apply text-sm font-medium text-neutral-500 mb-2;
+  }
+  
+  /* Tooltip */
+  .tooltip {
+    @apply relative inline-block;
+  }
+  
+  .tooltip .tooltip-text {
+    @apply invisible absolute z-50 w-48 bg-neutral-800 dark:bg-neutral-700 text-white text-xs rounded-md p-2 opacity-0 transition-opacity duration-300 shadow-md;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -24px;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    @apply visible opacity-100;
+  }
+  
+  /* Dark mode customizations for form controls */
+  .dark .form-input,
+  .dark .form-select {
+    @apply bg-neutral-800 border-neutral-700 text-neutral-200;
+  }
+  
+  /* Section separators */
+  .section-divider {
+    @apply my-8 border-t border-neutral-200;
+  }
+  
+  /* Brand elements */
+  .brand-icon {
+    @apply inline-block text-primary;
+  }
+  
+  /* Loading animation */
+  .loading-animation {
+    @apply animate-pulse;
+  }
+  
+  /* Voice recognition animations */
+  .animate-pulse {
+    animation: pulse-opacity 1.5s ease-in-out infinite;
+  }
+  
+  .animate-soundwave {
+    animation: soundwave 1.5s ease-out infinite;
+  }
+  
+  /* Voice UI overlay */
+  .voice-ui-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    z-index: 100;
+    animation: fadeIn 0.3s ease-out;
+  }
+
+  .voice-ui-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 500px;
+    background: rgba(15, 15, 20, 0.85);
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(var(--color-primary-rgb), 0.3), 
+                0 0 80px rgba(var(--color-primary-rgb), 0.2),
+                inset 0 0 10px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    animation: scaleIn 0.3s ease-out;
+  }
+
+  .voice-ui-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(var(--color-primary-rgb), 0.7);
+  }
+
+  .voice-ui-visualizer {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 2rem;
+  }
+
+  .voice-ui-circle {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.7), rgba(var(--color-secondary-rgb), 0.7));
+    box-shadow: 0 0 30px rgba(var(--color-primary-rgb), 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .voice-ui-circle.outer {
+    width: 180px;
+    height: 180px;
+    animation: pulse 2s infinite alternate;
+  }
+
+  .voice-ui-circle.middle {
+    width: 140px;
+    height: 140px;
+    left: 20px;
+    top: 20px;
+    background: linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.6), rgba(var(--color-secondary-rgb), 0.6));
+    animation: pulse 1.7s infinite alternate 0.3s;
+  }
+
+  .voice-ui-circle.inner {
+    width: 100px;
+    height: 100px;
+    left: 40px;
+    top: 40px;
+    background: linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.5));
+    animation: pulse 1.4s infinite alternate 0.6s;
+  }
+
+  .voice-icon {
+    font-size: 30px;
+    animation: fadeInOut 2s infinite;
+  }
+
+  .voice-ui-instructions {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .voice-ui-commands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .voice-command-tag {
+    background: rgba(var(--color-primary-rgb), 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .voice-ui-close {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .voice-ui-close:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .voice-ui-transcript {
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    max-height: 100px;
+    overflow-y: auto;
+    word-break: break-word;
+  }
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(var(--color-primary-rgb), 0.5);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(var(--color-primary-rgb), 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(var(--color-primary-rgb), 0);
+  }
+}
+
+@keyframes soundwave {
+  0% {
+    box-shadow: 0 0 0 0 rgba(var(--color-primary-rgb), 0.5);
+  }
+  
+  70% {
+    box-shadow: 0 0 0 10px rgba(var(--color-primary-rgb), 0);
+  }
+  
+  100% {
+    box-shadow: 0 0 0 0 rgba(var(--color-primary-rgb), 0);
+  }
+}

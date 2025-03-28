@@ -1,0 +1,12 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="cocktailPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+      <path d="M15 15 L20 20 L15 25 Z" fill="rgba(186, 104, 200, 0.1)" />
+      <circle cx="80" cy="80" r="3" fill="rgba(186, 104, 200, 0.1)" />
+      <path d="M80 15 L85 20 L80 25 Z" fill="rgba(186, 104, 200, 0.08)" />
+      <path d="M40 40 L45 45 L40 50 Z" fill="rgba(186, 104, 200, 0.06)" />
+      <circle cx="40" cy="80" r="2" fill="rgba(186, 104, 200, 0.07)" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#cocktailPattern)" />
+</svg>

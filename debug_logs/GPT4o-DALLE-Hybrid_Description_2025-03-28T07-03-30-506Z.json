@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFy2S63dTUa8MXln6VfEwCtr6t0ro",
+  "object": "chat.completion",
+  "created": 1743145408,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Winter's Embrace\" is served in a clear, heat-resistant glass mug. Its warm amber liquid is softly lit, highlighting the rich golden hue of the Irish whiskey and honey blend. A slender cinnamon stick stands upright, while a vibrant lemon wheel perches on the rim. Soft, diffused lighting creates gentle reflections on the glass, emphasizing the cocktail's inviting warmth. In the background, a rustic wooden surface and subtle pine twigs suggest a cozy winter setting, enhancing the drink's comforting allure. The overall composition balances warmth and elegance, inviting one to savor the season.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 118,
+    "total_tokens": 247,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

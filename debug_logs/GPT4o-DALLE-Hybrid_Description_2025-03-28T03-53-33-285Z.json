@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFv4d3paA7Xp8UWJC03Ivn4frF5rt",
+  "object": "chat.completion",
+  "created": 1743134011,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Rustic Tequila Sazerac is elegantly served in a crystal-clear rocks glass, showcasing its rich, honeyed amber hue. A subtle Absinthe sheen clings to the glass’s inner surface. The drink’s smooth, lustrous top is punctuated by a refined lemon twist garnish, artfully spiraled. Three ruby-red Peychaud's bitters drops gently punctuate the surface. Soft, warm lighting highlights the glass's delicate etching, casting gentle reflections on a rustic wooden background. The ambient mood is cozy and inviting, evoking a sense of refined, earthy charm. The composition emphasizes the cocktail's artisanal allure and sophisticated simplicity.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 127,
+    "completion_tokens": 131,
+    "total_tokens": 258,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

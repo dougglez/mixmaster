@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFy2Gf2vgIdWftfewQiuXAuyqNowA",
+  "object": "chat.completion",
+  "created": 1743145396,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Spiced Apple Cider Whiskey cocktail is elegantly presented in a clear, heat-resistant glass mug. Warm amber hues from the bourbon and apple cider blend beautifully, enhanced by the golden glow of surrounding soft, ambient lighting. The cinnamon stick and two cloves float near the surface, releasing aromatic hints. An apple slice rests artfully on the rim, adding a touch of red and green contrast. Gentle reflections shimmer on a wooden tabletop, evoking a cozy, autumnal feel. The background is softly focused, with hints of blurred, warm-toned autumn leaves, enhancing the cocktail's comforting and inviting aesthetic.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 122,
+    "total_tokens": 252,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

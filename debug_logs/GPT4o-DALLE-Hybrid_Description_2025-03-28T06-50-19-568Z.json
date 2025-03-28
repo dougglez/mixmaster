@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFxpiv9jgmuOLck6sSwkSntHk52OY",
+  "object": "chat.completion",
+  "created": 1743144618,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Whiskey Ginger Twist\" is served in a crystal-clear, short rocks glass. The drink exhibits a warm amber hue, softly contrasted by the light fizz of ginger ale. A vibrant green lime wheel perches on the rim, adding a fresh pop of color. Under warm, soft lighting, the glass captures delicate reflections. The background showcases a smooth, deep mahogany wood, highlighting the cocktail's rich tones. The overall composition is elegant and inviting, emphasizing the harmony of colors and the cocktail's lively effervescence.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 107,
+    "total_tokens": 233,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

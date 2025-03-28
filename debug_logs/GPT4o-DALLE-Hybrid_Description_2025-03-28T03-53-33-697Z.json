@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFv4d2eP5JKr9q97QaBnXW34U2w5N",
+  "object": "chat.completion",
+  "created": 1743134011,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Vodka Sunset Elixir\" is elegantly served in a sleek, curved highball glass. The cocktail features a gradient of vibrant colors, transitioning from a deep red at the base, thanks to grenadine, to a bright, sunny orange hue. Topped with a thin lime wheel and elderflower blossom, it exudes refreshing charm. Soft, ambient lighting emphasizes the glass’s reflective surface, casting delicate patterns on the smooth wooden background. The backdrop is a subtle, blurred sunset, enhancing the drink’s tropical allure. Overall, the composition is vivid and inviting, encapsulating a tranquil sunset vibe.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 122,
+    "total_tokens": 253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

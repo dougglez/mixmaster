@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFvDuELJPZu3WLudZeVq52J3sXZDn",
+  "object": "chat.completion",
+  "created": 1743134586,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Maple Bourbon Delight\" is served in a classic rocks glass. The cocktail's rich amber tone, reminiscent of autumn leaves, is complemented by the opalescent sheen of the maple syrup. A frosty transparency adorns the glass, highlighted by a warm, golden light from the side, casting subtle reflections. The drink is garnished with a single cinnamon stick resting atop clinking ice cubes. In the background, rustic wood provides a cozy, intimate backdrop, with soft focus candles flickering in the distance, accentuating the cocktail's inviting warmth and enhancing its visual allure.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 118,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

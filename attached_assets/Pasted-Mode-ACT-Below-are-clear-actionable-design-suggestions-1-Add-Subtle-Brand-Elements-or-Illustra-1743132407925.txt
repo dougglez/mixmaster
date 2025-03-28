@@ -1,0 +1,33 @@
+Mode: ACT
+
+Below are clear, actionable design suggestions:
+	1.	Add Subtle Brand Elements or Illustrations
+	•	Background/Accent: Introduce a faint patterned background (e.g., cocktail glass outlines or subtle abstract shapes) to reinforce the fun, mixology theme without cluttering the interface.
+	•	Header Logo: Create a small illustrated logo or icon (like a stylized cocktail shaker or glass) to place next to “MixMaster” in the header for a more distinctive brand identity.
+	2.	Enhance Typography for Visual Hierarchy
+	•	Headline Font: Use a slightly more expressive, playful font for the headline “Discover Your Perfect Cocktail” to reflect the fun nature of the app.
+	•	Body and Labels: Maintain a clean, modern sans-serif font, but ensure the text color meets WCAG contrast guidelines.
+	•	Subheadings: Add subheadings (e.g., “What Are You in the Mood For?”) in a slightly larger, bolder text to separate form sections more clearly.
+	3.	Refine Form Fields
+	•	Grouping Characteristics: Group related drink characteristics together, such as:
+	•	Taste: Sweet, Sour, Bitter
+	•	Profile: Spicy, Strong, Smoky, Herbal
+	•	Feel: Creamy, Refreshing, Fruity
+	•	Tooltips or Hover Descriptions: Provide short explanations (e.g., “Spicy: Drinks that have a kick or use chili-infused spirits”) so users understand each characteristic quickly.
+	4.	Improve Visual Contrast and Color
+	•	Button and Accent Color: Keep the pinkish-purple theme but ensure the text on the button has enough contrast (white text with a bold font weight typically works well).
+	•	Hover/Focus States: Give form elements a slightly darker outline or background on hover or focus to improve usability and accessibility feedback.
+	5.	Include Additional Guidance or Hints
+	•	Placeholder Text: Under “Available Ingredients,” add a secondary placeholder or tip: “Separate multiple ingredients with commas” to clarify input format.
+	•	Optional Examples: Provide a quick link or suggestion like “Try a Mojito!” that auto-populates the fields for users unsure of what to pick.
+	6.	Optimize Responsiveness
+	•	Mobile Breakpoints: Test the layout on common screen sizes. Ensure the form fields and toggles wrap or stack nicely, and the button remains easy to tap.
+	•	Icons vs. Text: For smaller screens, consider using icons (e.g., a chili pepper icon for “Spicy”) in addition to text to conserve space and provide quick recognition.
+	7.	Use a Clear Call-to-Action
+	•	CTA Label: Keep “Get Cocktail Recommendations,” but ensure the button stands out (large, centered, and with clear contrast).
+	•	Secondary CTA or Link: Consider adding a subtle secondary link for advanced options (e.g., “Advanced Filters” or “Customize Glassware/Serving Style”) if you plan to expand features later.
+	8.	Visual Feedback on Submission
+	•	Loading Indicator: After clicking “Get Cocktail Recommendations,” show a short loading animation or progress bar to reassure users that the system is working on their request.
+	•	Results Page Consistency: Maintain the same design elements (color palette, typography) on the results page to ensure a cohesive experience.
+
+These suggestions will help give the page a stronger brand identity, improve usability, and create a more engaging user experience while keeping the design clean and modern.

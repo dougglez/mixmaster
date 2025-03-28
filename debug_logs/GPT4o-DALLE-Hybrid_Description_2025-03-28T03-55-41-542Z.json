@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFv6hboRZIbVPhzp7VMWsCGxDWOOO",
+  "object": "chat.completion",
+  "created": 1743134139,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The cocktail is served in a tall, sleek Collins glass. The drink's pale green hue is vibrant against clear glass, achieved by muddling fresh basil leaves. A lemon's soft golden glow adds depth. Ice cubes sparkle, magnifying the drink's refreshing qualities. Garnished with a basil sprig and a lemon twist intertwined, resting against the glass rim. Under soft, natural light, the drink casts gentle reflections, enhancing its allure. The background is a blurred, verdant garden, suggesting freshness and tranquility. The overall composition evokes a serene, summery garden ambiance, highlighting herbal and citrus notes.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 122,
+    "total_tokens": 248,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

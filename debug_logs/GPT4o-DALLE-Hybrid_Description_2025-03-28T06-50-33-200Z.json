@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFxpvc7XYhzBii0gOGgmcSti1fbo3",
+  "object": "chat.completion",
+  "created": 1743144631,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Honeyed Whiskey Sour rests elegantly in a classic, clear rocks glass. The drink features a golden amber hue with a creamy white frothy cap, courtesy of the egg white. A delicate dash of Angostura Bitters creates an intricate orange speckled pattern atop the foam. Garnished with a thin lemon wheel perched on the rim, it's set against a soft, warm-toned background that complements the honey notes. Soft lighting accentuates the drink's warm tones, creating subtle reflections on the glass surface, while a blurred wooden bar counter adds depth and texture to the overall composition.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 120,
+    "total_tokens": 261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

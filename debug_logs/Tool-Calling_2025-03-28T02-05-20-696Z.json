@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFtNtxTamdEZj6cdunIGGBPOWsdYJ",
+  "object": "chat.completion",
+  "created": 1743127517,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I can't create or display images directly, but if you have access to an AI image generation tool or software, you can input this detailed description to generate the image:\n\n- **Cocktail Name**: Smoky Spiced Velvet\n- **Ingredients**: \n  - 1.5 oz mezcal\n  - 1 oz creamy coconut milk\n  - 0.5 oz honey syrup\n  - 0.5 oz fresh lime juice\n  - 2 dashes of chili bitters\n  - 3 fresh basil leaves\n  - Pinch of smoked paprika\n- **Glassware**: Serve it in a classic cocktail coupe or a rocks glass.\n- **Garnish**: Fresh basil leaves, a lime wheel, and a light dusting of smoked paprika on top.\n- **Setting**: Professional lighting with a soft, diffused glow to enhance the creamy texture of the drink; compositional elements might include a wooden table top or a marble surface with a few scattered basil leaves for an aesthetic touch.\n\nFeel free to use this description to inform your image creation!",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 222,
+    "total_tokens": 353,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

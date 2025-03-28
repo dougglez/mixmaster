@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "I can't create a photorealistic image directly as I'm a text-based AI. However, I can give you a very detailed description of such an image, which you could use as a guide for a photographer or digital artist:\n\n**Scene:**\n\n* **Glassware:**  A clear, heat-resistant Irish coffee glass or a stemmed mug sits on a dark, rustic wooden table. The glass should be slightly misted from the hot water, showing condensation droplets.\n* **Lighting:** Soft, warm light comes from the back left, creating highlights on the surface of the liquid and the rosemary sprig. A subtle fill light from the front right prevents harsh shadows.\n* **Background:** The background is slightly out of focus but features warm, autumnal tones, perhaps a blurry stack of firewood or a cozy plaid blanket.\n\n**Cocktail Appearance:**\n\n* **Liquid:** The cocktail itself is a warm, inviting amber color, similar to maple syrup but slightly lighter due to the whiskey and lemon juice. The hot water creates a gentle swirling effect within the glass, subtly blending the ingredients.  A thin layer of foam sits on the surface, formed by the combination of lemon juice and hot water.\n* **Garnish:** A single, vibrant green rosemary sprig is delicately placed in the glass.  Part of it submerges in the drink, and the rest gracefully arches over the rim, with a few droplets of the cocktail clinging to its needles.  A thin lemon twist could also be present, perched on the rim of the glass, its oils adding a sheen to the surface.\n* **Ice:**  This cocktail is served hot, so no ice is present.\n\n**Details to Enhance Realism:**\n\n* **Reflections:** The glass reflects the warm light and surrounding environment, adding depth and realism.\n* **Shadows:** Soft shadows are cast by the glass and the rosemary sprig, grounding the image and adding dimension.\n* **Texture:** The wood grain of the table is visible and adds to the rustic, cozy feel.  The condensation on the glass provides a tactile element.\n* **Steam:** A thin wisp of steam gently rises from the surface of the hot cocktail, adding a sense of warmth and aroma.\n\n\n**Overall Impression:**\n\nThe final image should evoke a sense of comfort, warmth, and sophistication.  It should highlight the rich, autumnal colors and flavors of the cocktail, inviting the viewer to imagine the taste and aroma.  The rustic setting and soft lighting create a cozy atmosphere, perfect for enjoying a warm drink on a chilly evening.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.4099102783203125
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 74,
+    "candidatesTokenCount": 525,
+    "totalTokenCount": 599,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 74
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 525
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFtINmRWuvpdb75lgvpCCwwk1X48M",
+  "object": "chat.completion",
+  "created": 1743127175,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Creating your photorealistic image of a Strawberry Basil Smash cocktail involves considering its vibrant colors and fresh ingredients. Imagine a scene that looks as follows:\n\nA beautifully crafted Strawberry Basil Smash cocktail is presented in a crystal-clear, short rocks glass. The glass shimmers under perfect lighting, highlighting the drink's refreshing, pink hue. Floating within are muddled strawberries and bright green basil leaves, lightly suspended, adding a burst of natural color contrast.\n\nThe surface of the cocktail shows a delicate frothy layer from the muddled ingredients. Ice cubes, transparent and perfectly chiseled, clink against the glass, creating intriguing reflections and refractions of light.\n\nFor garnishing, a couple of whole, vibrant red strawberries are sliced and placed elegantly on the rim of the glass, accompanied by a sprig of fresh basil leaf arranged standingly to give height. There's a thin lime wheel subtly tucked between ice and rim, adding a lively touch of green and suggesting the cocktail's citrus notes.\n\nThe photograph's background is softly blurred, keeping the focus sharply on the drink, while the surface it sits on is a polished wooden bar, lending warmth and texture. The light source seems natural, perhaps from a nearby window, with soft shadows playing around the glass features, enhancing the drink's fresh and inviting appeal. \n\nThis image would easily grace the pages of a high-end cocktail magazine, capturing the essence of a Strawberry Basil Smash.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 80,
+    "completion_tokens": 284,
+    "total_tokens": 364,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_898ac29719"
+}

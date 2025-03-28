@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFv6hAkcQIDjFNmTY8EFIeD6JXJty",
+  "object": "chat.completion",
+  "created": 1743134139,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Citrus Lavender Dream\" is elegantly showcased in a classic coupe glass, its curvature accentuating the cocktail's ombre hues of soft lavender blending into a sunny citrus glow. A twist of lemon peel perches on the rim, while a sprig of fresh lavender floats atop. Soft, diffused lighting casts a warm glow, illuminating the glass and creating gentle reflections on the glossy surface. The background is a minimalist white with subtle lavender accents, ensuring focus remains on the cocktail. The overall composition exudes sophistication and tranquility, inviting a refreshing sensory experience.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 123,
+    "completion_tokens": 114,
+    "total_tokens": 237,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

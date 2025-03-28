@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFv6hXMlb44vr8Qkz8kg6gBuOTtSY",
+  "object": "chat.completion",
+  "created": 1743134139,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Tropical Sunset Breeze\" is served in a tall, curvaceous hurricane glass. The drink showcases a gradient, transitioning from a deep crimson at the base—courtesy of the grenadine—to a soft golden hue at the top. Garnished with a skewered pineapple slice and a maraschino cherry, it radiates elegance. Illuminated by warm, golden light that mimics a setting sun, the cocktail stands against a blurred beach background. Subtle reflections dance on the glass surface, enhancing the vibrant colors. The overall composition exudes warmth and tropical allure, capturing the essence of an idyllic sunset.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 125,
+    "total_tokens": 253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

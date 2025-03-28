@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFvDueJqCT3oqwqNrMBzOp5ewntKR",
+  "object": "chat.completion",
+  "created": 1743134586,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Honey Bourbon Fizz\" is served in a tall, sleek highball glass, showcasing a gradient from golden amber to pale yellow, created by layering bourbon and honey syrup with fresh lemon juice. Tiny bubbles shimmer, rising rapidly through the 2 oz of translucent club soda atop. A perfectly cut lemon wheel perches on the rim, adding a lively pop of yellow. The scene is softly lit with natural sunlight from the side, casting gentle shadows and fostering delicate reflections on the glass and wooden tabletop. The muted background highlights the cocktail's vivid hues and elegant presentation.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 115,
+    "total_tokens": 239,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}

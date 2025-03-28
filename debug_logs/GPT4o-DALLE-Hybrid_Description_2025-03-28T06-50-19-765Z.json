@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BFxpiWd2qgqP5sEExwv7HTmyKx3ay",
+  "object": "chat.completion",
+  "created": 1743144618,
+  "model": "gpt-4o-2024-08-06",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The \"Spicy Whiskey Smash\" is served in a classic rocks glass. The cocktail's amber hues are illuminated by soft, warm lighting, highlighting flecks of mint green within. A jalapeño slice floats subtly beneath the surface, offering a vivid green contrast. The mint sprig garnish crowns the cocktail, adding freshness and depth. Light softly glimmers off the glass's facets, creating gentle reflections. The background is a muted, rustic wooden texture, complementing the drink's earthy appeal. The composition is intimate, drawing focus on the layering of ingredients and the intricate details of the cocktail's presentation.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 122,
+    "total_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6dd05565ef"
+}
